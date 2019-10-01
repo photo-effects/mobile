@@ -2,13 +2,14 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 import Nav from './components/Landing/Nav.js';
+import Landing from './components/Landing/Landing.js';
 
 export default function App() {
   return (
     
     <View style={styles.container}>
       <Nav />
-      <Text>Make Your Next Design A Breeze!</Text>
+      <Landing />
       
     </View>
 
